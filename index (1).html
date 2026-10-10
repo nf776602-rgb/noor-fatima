@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Welcome to Noor Fatima — learn about us and connect with us.">
+  <title>Noor Fatima | Home</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Noor Fatima home">Noor <span>Fatima</span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+    <nav class="nav" id="mainNav">
+      <a href="#home">Home</a>
+      <a href="#about">About Us</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <p class="eyebrow">WELCOME TO</p>
+        <h1>Noor <span>Fatima</span></h1>
+        <p class="hero-text">A simple place to share our work, tell our story, and stay connected.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#about">About Us</a>
+          <a class="button button-outline" id="heroWhatsapp" href="#" target="_blank" rel="noopener">Chat on WhatsApp</a>
+        </div>
+      </div>
+      <div class="hero-card" aria-hidden="true">
+        <div class="sun"></div>
+        <div class="card-text">A little light<br>goes a long way.</div>
+      </div>
+    </section>
+
+    <section class="about section" id="about">
+      <p class="eyebrow">GET TO KNOW US</p>
+      <h2>About Us</h2>
+      <p class="section-intro">Welcome to Noor Fatima! This website is our online space to introduce ourselves, share updates, and make it easy for visitors to contact us.</p>
+      <div class="feature-grid">
+        <article class="feature">
+          <div class="feature-icon">✦</div>
+          <h3>Our Purpose</h3>
+          <p>To share useful information and make it simple for people to connect with us.</p>
+        </article>
+        <article class="feature">
+          <div class="feature-icon">♡</div>
+          <h3>Our Values</h3>
+          <p>We value kindness, honesty, and clear communication with every visitor.</p>
+        </article>
+        <article class="feature">
+          <div class="feature-icon">↗</div>
+          <h3>Stay Connected</h3>
+          <p>Reach out through WhatsApp or follow our social media page for updates.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="contact section" id="contact">
+      <p class="eyebrow">WE'D LOVE TO HEAR FROM YOU</p>
+      <h2>Let's Connect</h2>
+      <p class="section-intro">Have a question? Send us a message or find us on social media.</p>
+      <div class="contact-actions">
+        <a class="button whatsapp-button" id="contactWhatsapp" href="#" target="_blank" rel="noopener">☏ Message us on WhatsApp</a>
+        <a class="button social-button" id="socialLink" href="#" target="_blank" rel="noopener">◎ Follow on Instagram</a>
+      </div>
+      <p class="small-note">Before publishing, replace the example contact details in <strong>script.js</strong> with your own.</p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a class="brand footer-brand" href="#home">Noor <span>Fatima</span></a>
+    <p>© <span id="year"></span> Noor Fatima. All rights reserved.</p>
+    <a href="#home" class="back-top">Back to top ↑</a>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
